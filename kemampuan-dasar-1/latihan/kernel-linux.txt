@@ -1,0 +1,13 @@
+ - Peintah : $ dpkg -l | grep linux-image
+   linux-image-5.0.0-23-generic			
+   linux-image-5.0.0-25-generic			
+   linux-image-generic-hwe-18.04
+
+- Perintah : $ dpkg -l | grep linux-image
+  ii  linux-image-5.0.0-23-generic               5.0.0-23.24~18.04.1                               
+  amd64        Signed kernel image generic
+  ii  linux-image-5.0.0-25-generic               5.0.0-25.26~18.04.1                               
+  amd64        Signed kernel image generic
+  ii  linux-image-generic-hwe-18.04              5.0.0.25.82                                    
+  amd64        Generic Linux kernel image
+

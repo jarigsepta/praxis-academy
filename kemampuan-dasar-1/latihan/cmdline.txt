@@ -1,0 +1,187 @@
+ - Perintah 1 : ls -R
+.:
+Desktop    Downloads         Music     praxis  Templates
+Documents  examples.desktop  Pictures  Public  Videos
+
+./Desktop:
+
+./Documents:
+
+./Downloads:
+code_1.37.1-1565886362_amd64.deb
+
+./Music:
+
+./Pictures:
+
+./praxis:
+kemampuan-dasar-1  kemampuan-dasar-2
+
+./praxis/kemampuan-dasar-1:
+kasus  latihan
+
+./praxis/kemampuan-dasar-1/kasus:
+
+./praxis/kemampuan-dasar-1/latihan:
+env.txt  grub.txt  kernel-linux.txt
+
+./praxis/kemampuan-dasar-2:
+
+./Public:
+
+./Templates:
+
+./Videos:
+
+ - Perintah 2 : ls -a
+.              Desktop           .mozilla  .ssh
+..             Documents         Music     .sudo_as_admin_successful
+.bash_history  Downloads         Pictures  Templates
+.bash_logout   examples.desktop  .pki      Videos
+.bashrc        .gnupg            praxis    .vscode
+.cache         .gvfs             .profile
+.config        .ICEauthority     Public
+.dbus          .local            .quokka
+
+ - Perintah 3 : history
+    1  sudo dpkg-reconfigure tzdata
+    2  sudo su
+    3  sudo add-apt-repository ppa:gnome-shell-extensions/ppa
+    4  sudo apt-get update
+    5  sudo apt-get install gnome-shell-extensions
+    6  vi /etc/apt/sources.list
+    7  nano /etc/apt/sources.list
+    8  sudo nano /etc/apt/sources.list
+    9  cd ~/Downloads
+   10  ls
+   11  sudo dpkg -i code_1.37.1-1565886362_amd64.deb
+   12  sudo gedit /etc/default/grub
+   13  cd ~/Downloads
+   14  ls
+   15  cd ~/Downloads
+   16  ls
+   17  sudo dpkg -i code_1.37.1-1565886362_amd64.deb
+   18  sudo apt install -f
+   19  cat /etc/X11/default-display-manager
+   20  echo $DESKTOP_SESSION
+   21  echo $0
+   22  dpkg --get-selections | grep linux-image
+   23  dpkg -l | grep linux-image
+   24  ls -R
+   25  ls -a
+
+ - Perintah 4 : clear
+   jarig@jarig:~$ 
+
+ - Perintah 5 : Date
+   Rab Agu 28 11:06:16 WIB 2019
+
+ - Perintah 6 : ls
+belajar  Documents  examples.desktop  Pictures  Public     Videos
+Desktop  Downloads  Music             praxis    Templates
+
+ - Perintah 7 : top
+top - 11:09:02 up  1:00,  1 user,  load average: 0,85, 0,99, 0,91
+Tasks: 257 total,   1 running, 199 sleeping,   0 stopped,   0 zombie
+%Cpu(s):  3,3 us,  3,2 sy,  0,0 ni, 93,3 id,  0,3 wa,  0,0 hi,  0,0 si,  0,0 st
+KiB Mem :  8025372 total,  1717600 free,  1896604 used,  4411168 buff/cache
+KiB Swap:  7999484 total,  7999484 free,        0 used.  5477748 avail Mem
+
+ - Perintah 8 : df
+Filesystem     1K-blocks    Used Available Use% Mounted on
+udev             3988816       0   3988816   0% /dev
+tmpfs             802540    1872    800668   1% /run
+/dev/sda9       42991984 5037496  35740908  13% /
+tmpfs            4012684  128344   3884340   4% /dev/shm
+tmpfs               5120       4      5116   1% /run/lock
+tmpfs            4012684       0   4012684   0% /sys/fs/cgroup
+/dev/loop1          1024    1024         0 100% /snap/gnome-logs/61
+/dev/loop3         15104   15104         0 100% /snap/gnome-characters/296
+/dev/loop4        153600  153600         0 100% /snap/gnome-3-28-1804/67
+/dev/loop2         90624   90624         0 100% /snap/core/7270
+/dev/loop6          4224    4224         0 100% /snap/gnome-calculator/406
+/dev/loop0          3840    3840         0 100% /snap/gnome-system-monitor/100
+/dev/loop5         43904   43904         0 100% /snap/gtk-common-themes/1313
+/dev/loop7         55808   55808         0 100% /snap/core18/1066
+/dev/sda7         967320  114672    786296  13% /boot
+/dev/sda10      28388132 2559380  24363664  10% /home
+tmpfs             802536      16    802520   1% /run/user/121
+tmpfs             802536      32    802504   1% /run/user/1000
+
+ - Perintah 9 : env
+CLUTTER_IM_MODULE=xim
+LS_COLORS=rs=0:di=01;34:ln=01;36:mh=00:pi=40;33:so=01;35:do=01;35:bd=40;33;01:cd=40;33;01:or=40;31;01:mi=00:su=37;41:sg=30;43:ca=30;41:tw=30;42:ow=34;42:st=37;44:ex=01;32:*.tar=01;31:*.tgz=01;31:*.arc=01;31:*.arj=01;31:*.taz=01;31:*.lha=01;31:*.lz4=01;31:*.lzh=01;31:*.lzma=01;31:*.tlz=01;31:*.txz=01;31:*.tzo=01;31:*.t7z=01;31:*.zip=01;31:*.z=01;31:*.Z=01;31:*.dz=01;31:*.gz=01;31:*.lrz=01;31:*.lz=01;31:*.lzo=01;31:*.xz=01;31:*.zst=01;31:*.tzst=01;31:*.bz2=01;31:*.bz=01;31:*.tbz=01;31:*.tbz2=01;31:*.tz=01;31:*.deb=01;31:*.rpm=01;31:*.jar=01;31:*.war=01;31:*.ear=01;31:*.sar=01;31:*.rar=01;31:*.alz=01;31:*.ace=01;31:*.zoo=01;31:*.cpio=01;31:*.7z=01;31:*.rz=01;31:*.cab=01;31:*.wim=01;31:*.swm=01;31:*.dwm=01;31:*.esd=01;31:*.jpg=01;35:*.jpeg=01;35:*.mjpg=01;35:*.mjpeg=01;35:*.gif=01;35:*.bmp=01;35:*.pbm=01;35:*.pgm=01;35:*.ppm=01;35:*.tga=01;35:*.xbm=01;35:*.xpm=01;35:*.tif=01;35:*.tiff=01;35:*.png=01;35:*.svg=01;35:*.svgz=01;35:*.mng=01;35:*.pcx=01;35:*.mov=01;35:*.mpg=01;35:*.mpeg=01;35:*.m2v=01;35:*.mkv=01;35:*.webm=01;35:*.ogm=01;35:*.mp4=01;35:*.m4v=01;35:*.mp4v=01;35:*.vob=01;35:*.qt=01;35:*.nuv=01;35:*.wmv=01;35:*.asf=01;35:*.rm=01;35:*.rmvb=01;35:*.flc=01;35:*.avi=01;35:*.fli=01;35:*.flv=01;35:*.gl=01;35:*.dl=01;35:*.xcf=01;35:*.xwd=01;35:*.yuv=01;35:*.cgm=01;35:*.emf=01;35:*.ogv=01;35:*.ogx=01;35:*.aac=00;36:*.au=00;36:*.flac=00;36:*.m4a=00;36:*.mid=00;36:*.midi=00;36:*.mka=00;36:*.mp3=00;36:*.mpc=00;36:*.ogg=00;36:*.ra=00;36:*.wav=00;36:*.oga=00;36:*.opus=00;36:*.spx=00;36:*.xspf=00;36:
+LC_MEASUREMENT=id_ID.UTF-8
+LESSCLOSE=/usr/bin/lesspipe %s %s
+LC_PAPER=id_ID.UTF-8
+LC_MONETARY=id_ID.UTF-8
+XDG_MENU_PREFIX=gnome-
+LANG=en_US.UTF-8
+DISPLAY=:0
+GNOME_SHELL_SESSION_MODE=ubuntu
+COLORTERM=truecolor
+USERNAME=jarig
+XDG_VTNR=2
+SSH_AUTH_SOCK=/run/user/1000/keyring/ssh
+LC_NAME=id_ID.UTF-8
+XDG_SESSION_ID=2
+USER=jarig
+DESKTOP_SESSION=ubuntu
+QT4_IM_MODULE=xim
+TEXTDOMAINDIR=/usr/share/locale/
+GNOME_TERMINAL_SCREEN=/org/gnome/Terminal/screen/5721f919_11bc_4a83_bf04_72921906b614
+PWD=/home/jarig
+HOME=/home/jarig
+TEXTDOMAIN=im-config
+SSH_AGENT_PID=1515
+QT_ACCESSIBILITY=1
+XDG_SESSION_TYPE=x11
+XDG_DATA_DIRS=/usr/share/ubuntu:/usr/local/share:/usr/share:/var/lib/snapd/desktop
+XDG_SESSION_DESKTOP=ubuntu
+LC_ADDRESS=id_ID.UTF-8
+GJS_DEBUG_OUTPUT=stderr
+LC_NUMERIC=id_ID.UTF-8
+GTK_MODULES=gail:atk-bridge
+WINDOWPATH=2
+VTE_VERSION=5202
+TERM=xterm-256color
+SHELL=/bin/bash
+QT_IM_MODULE=xim
+XMODIFIERS=@im=ibus
+IM_CONFIG_PHASE=2
+XDG_CURRENT_DESKTOP=ubuntu:GNOME
+GPG_AGENT_INFO=/run/user/1000/gnupg/S.gpg-agent:0:1
+GNOME_TERMINAL_SERVICE=:1.254
+XDG_SEAT=seat0
+SHLVL=1
+LC_TELEPHONE=id_ID.UTF-8
+GDMSESSION=ubuntu
+GNOME_DESKTOP_SESSION_ID=this-is-deprecated
+LOGNAME=jarig
+DBUS_SESSION_BUS_ADDRESS=unix:path=/run/user/1000/bus
+XDG_RUNTIME_DIR=/run/user/1000
+XAUTHORITY=/run/user/1000/gdm/Xauthority
+XDG_CONFIG_DIRS=/etc/xdg/xdg-ubuntu:/etc/xdg
+PATH=/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games:/usr/local/games:/snap/bin
+LC_IDENTIFICATION=id_ID.UTF-8
+GJS_DEBUG_TOPICS=JS ERROR;JS LOG
+SESSION_MANAGER=local/jarig:@/tmp/.ICE-unix/1420,unix/jarig:/tmp/.ICE-unix/1420
+LESSOPEN=| /usr/bin/lesspipe %s
+GTK_IM_MODULE=ibus
+LC_TIME=id_ID.UTF-8
+_=/usr/bin/env
+OLDPWD=/home/jarig
+
+ - Perintah 10 : sudo apt-get update
+Hit:1 http://ppa.launchpad.net/gnome-shell-extensions/ppa/ubuntu bionic InRelease
+Get:2 http://packages.microsoft.com/repos/vscode stable InRelease [3.182 B]    
+Get:3 http://packages.microsoft.com/repos/vscode stable/main amd64 Packages [136 kB]
+Hit:4 http://id.archive.ubuntu.com/ubuntu bionic InRelease                     
+Get:5 http://security.ubuntu.com/ubuntu bionic-security InRelease [88,7 kB]    
+Get:6 http://archive.ubuntu.com/ubuntu bionic InRelease [242 kB]               
+Get:7 http://id.archive.ubuntu.com/ubuntu bionic-updates InRelease [88,7 kB]   
+Get:8 http://id.archive.ubuntu.com/ubuntu bionic-backports InRelease [74,6 kB] 
+Get:9 http://security.ubuntu.com/ubuntu bionic-security/main amd64 DEP-11 Metadata [22,7 kB]
+ 
+
+

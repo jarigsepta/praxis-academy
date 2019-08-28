@@ -1,0 +1,10 @@
+- Ubuntu
+  Sistem Operasi Ubuntu
+- Advanced options for ubuntu
+
+- memory test (memtest86+)
+
+- memory test (memtest86+, serial console 115200)
+
+- Windows 10 (on /dev/sda1)
+  Sistem Operasi Windows 10

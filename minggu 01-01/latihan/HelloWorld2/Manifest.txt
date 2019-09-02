@@ -1,0 +1,3 @@
+Manifest-version: 2.0
+Created-By: 2.0
+Main-Class: HelloWorld2.Main

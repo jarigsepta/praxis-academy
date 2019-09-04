@@ -1,0 +1,32 @@
+{
+    "configurations": [
+        {
+            "type": "java",
+            "name": "CodeLens (Launch) - Test",
+            "request": "launch",
+            "mainClass": "app.Test",
+            "projectName": "Generic"
+        },
+        {
+            "type": "java",
+            "name": "CodeLens (Launch) - SuppressWarningTest",
+            "request": "launch",
+            "mainClass": "app.SuppressWarningTest",
+            "projectName": "Generic"
+        },
+        {
+            "type": "java",
+            "name": "CodeLens (Launch) - Derived",
+            "request": "launch",
+            "mainClass": "app.Derived",
+            "projectName": "Generic"
+        },
+        {
+            "type": "java",
+            "name": "CodeLens (Launch) - App",
+            "request": "launch",
+            "mainClass": "app.App",
+            "projectName": "Generic"
+        }
+    ]
+}

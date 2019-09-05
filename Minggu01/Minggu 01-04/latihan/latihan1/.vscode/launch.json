@@ -1,0 +1,18 @@
+{
+    "configurations": [
+        {
+            "type": "java",
+            "name": "CodeLens (Launch) - MountainBike",
+            "request": "launch",
+            "mainClass": "latihan1.MountainBike",
+            "projectName": "latihan1"
+        },
+        {
+            "type": "java",
+            "name": "CodeLens (Launch) - App",
+            "request": "launch",
+            "mainClass": "latihan1.App",
+            "projectName": "latihan1"
+        }
+    ]
+}

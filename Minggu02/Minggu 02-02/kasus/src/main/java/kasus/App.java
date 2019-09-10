@@ -1,4 +1,4 @@
-package latihan1;
+package kasus;
 
 import java.util.Scanner;
 

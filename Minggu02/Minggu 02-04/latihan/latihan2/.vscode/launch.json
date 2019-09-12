@@ -1,0 +1,11 @@
+{
+    "configurations": [
+        {
+            "type": "java",
+            "name": "CodeLens (Launch) - MyLegacyTest",
+            "request": "launch",
+            "mainClass": "app.MyLegacyTest",
+            "projectName": "latihan2"
+        }
+    ]
+}

@@ -1,0 +1,118 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Kamus</title>
+</head>
+<body>
+    <h2>Kamus Inggris - Indonesia</h2>
+    <script>
+        var tanya = true;
+        while (tanya) {
+            var kata = prompt("Masukkan kata :", 'Answer, Believe, Come, Dream, Eat, Find, Get, Hope, Invite, Join, Keep, Laugh, Make, Near, Overcome, Prove, Quick, Reach, Study, Think, Understand, Visit, Work');
+            let map = new Map();
+            map.set('Answer', 'Menjawab');
+            map.set('Believe', 'Percaya');
+            map.set('Come', 'Datang');
+            map.set('Dream', 'Bermimpi');
+            map.set('Eat', 'Makan');
+            map.set('Find', 'Menemukan');
+            map.set('Get', 'Mendapatkan');
+            map.set('Hope', 'Mengharapkan');
+            map.set('Invite', 'Mengundang');
+            map.set('Join', 'Bergabung');
+            map.set('Keep', 'Menjaga');
+            map.set('Laugh', 'Tertawa');
+            map.set('Make', 'Membuat');
+            map.set('Near', 'Dekat');
+            map.set('Overcome', 'Mengatasi');
+            map.set('Prove', 'Membuktikan');
+            map.set('Quick', 'Cepat');
+            map.set('Reach', 'Meraih');
+            map.set('Study', 'Belajar');
+            map.set('Think', 'Berpikir');
+            map.set('Understand', 'Mengerti');
+            map.set('Visit', 'Mengunjungi');
+            map.set('Work', 'Bekerja');
+            switch (kata) {
+                case 'Answer':
+                    alert('Arti dari Answer adalah : ' + map.get('Answer'));
+                    break;
+                case 'Believe':
+                    alert('Arti dari Believe adalah : ' + map.get('Believe'));
+                    break;
+                case 'Come':
+                    alert('Arti dari Come adalah : ' + map.get('Come'));
+                    break;
+                case 'Dream':
+                    alert('Arti dari Dream adalah : ' + map.get('Dream'));
+                    break;
+                case 'Eat':
+                    alert('Arti dari Eat adalah : ' + map.get('Eat'));
+                    break;
+                case 'Find':
+                    alert('Arti dari Find adalah : ' + map.get('Find'));
+                    break;
+                case 'Get':
+                    alert('Arti dari Get adalah : ' + map.get('Get'));
+                    break;
+                case 'Hope':
+                    alert('Arti dari Hope adalah : ' + map.get('Hope'));
+                    break;
+                case 'Invite':
+                    alert('Arti dari Invite adalah : ' + map.get('Invite'));
+                    break;
+                case 'Join':
+                    alert('Arti dari Join adalah : ' + map.get('Join'));
+                    break;
+                case 'Keep':
+                    alert('Arti dari Keep adalah : ' + map.get('Keep'));
+                    break;
+                case 'Laugh':
+                    alert('Arti dari Laugh adalah : ' + map.get('Laugh'));
+                    break;
+                case 'Make':
+                    alert('Arti dari Make adalah : ' + map.get('Make'));
+                    break;
+                case 'Near':
+                    alert('Arti dari Near adalah : ' + map.get('Near'));
+                    break;
+                case 'Overcome':
+                    alert('Arti dari Overcome adalah : ' + map.get('Overcome'));
+                    break;
+                case 'Prove':
+                    alert('Arti dari Prove adalah : ' + map.get('Prove'));
+                    break;
+                case 'Quick':
+                    alert('Arti dari Quick adalah : ' + map.get('Quick'));
+                    break;
+                case 'Reach':
+                    alert('Arti dari Reach adalah : ' + map.get('Reach'));
+                    break;
+                case 'Study':
+                    alert('Arti dari Study adalah : ' + map.get('Study'));
+                    break;
+                case 'Think':
+                    alert('Arti dari Think adalah : ' + map.get('Think'));
+                    break;
+                case 'Understand':
+                    alert('Arti dari Understand adalah : ' + map.get('Understand'));
+                    break;
+                case 'Visit':
+                    alert('Arti dari Visit adalah : ' + map.get('Visit'));
+                    break;
+                case 'Work':
+                    alert('Arti dari Work adalah : ' + map.get('Work'));
+                    break;
+                default:
+                    alert('Mohon Maaf, Kata yang Anda Masukkan Belum Tersedia.');
+                    break;
+            }
+            tanya = confirm('Apakah Anda Ingin Melanjutkan ? ');
+        }
+        alert('Terima kasih');
+    </script>
+</body>
+</html>
